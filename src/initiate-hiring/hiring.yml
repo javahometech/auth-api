@@ -1,0 +1,12 @@
+addTechPannel:
+  handler: src/initiate-hiring/hiring.post
+  events:
+   - httpApi:
+        method: GET
+        path: /start-hire
+        authorizer: auth0Authorizer
+  versionFunctions: false
+  name: startHiring
+  package:
+    include:
+      - src/initiate-hiring/hiring.py

@@ -1,0 +1,10 @@
+{
+    "employement_type": [
+        "permanent"
+        ],
+    "job_function":[
+        "Accounts"
+     ],
+     "location": "Banglore",
+     "skills":["java","spring"]
+}
